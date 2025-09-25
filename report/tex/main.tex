@@ -5,15 +5,12 @@
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{hyperref}
-\usepackage{datatool}
 \title{Couchman Report}
 \author{Analysis Team}
 \date{\today}
 \input{includes/macros}
 \begin{document}
 \maketitle
-
-\DTLloaddb{metrics}{../tables/sample_metrics.csv}
 
 \section*{Executive One-Pagers}
 \subsection*{Toby Couchman}
@@ -24,7 +21,7 @@ Key metrics and uncertainty.
 \toprule
 Player & Metric & Mean & Lo & Hi \\
 \midrule
-\DTLforeach*{metrics}{\player=player,\metric=metric,\mean=mean,\lo=lo,\hi=hi}{\player & \metric & \mean & \lo & \hi \\}
+\IfFileExists{sample_metrics_rows.tex}{\input{sample_metrics_rows.tex}}{\typeout{sample_metrics_rows.tex missing}}
 \bottomrule
 \end{tabular}
 \end{table}
