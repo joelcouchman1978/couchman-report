@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: tectonic-typesetting/setup-tectonic@v3
+      - uses: WtfJoke/setup-tectonic@v3
       - name: Build report PDF
         working-directory: report/tex
         run: |
