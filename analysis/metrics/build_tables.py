@@ -1,6 +1,6 @@
 import csv, pathlib
 csv_path = pathlib.Path("report/tables/sample_metrics.csv")
-rows_path = pathlib.Path("report/tables/sample_metrics_rows.tex")
+rows_path = pathlib.Path("report/tex/sample_metrics_rows.tex")
 rows_path.parent.mkdir(parents=True, exist_ok=True)
 rows = [
     ["player","metric","mean","lo","hi"],
