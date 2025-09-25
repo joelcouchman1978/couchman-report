@@ -21,7 +21,7 @@ Key metrics and uncertainty.
 \toprule
 Player & Metric & Mean & Lo & Hi \\
 \midrule
-\input{sample_metrics_rows.tex}
+\IfFileExists{sample_metrics_rows.tex}{\input{sample_metrics_rows.tex}}{\typeout{sample_metrics_rows.tex missing}}
 \bottomrule
 \end{tabular}
 \end{table}
