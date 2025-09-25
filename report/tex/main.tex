@@ -5,17 +5,34 @@
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{hyperref}
-\title{Couchman Report — v0 (Skeleton)}
+\usepackage{datatool}
+\title{Couchman Report}
 \author{Analysis Team}
 \date{\today}
 \input{includes/macros}
 \begin{document}
 \maketitle
+
+\DTLloaddb{metrics}{../tables/sample_metrics.csv}
+
 \section*{Executive One-Pagers}
 \subsection*{Toby Couchman}
-Key metrics (stub), uncertainty bands (stub), and 3–5 evidence bullets.
+Key metrics and uncertainty.
+\begin{table}[h!]
+\centering
+\begin{tabular}{l l r r r}
+\toprule
+Player & Metric & Mean & Lo & Hi \\
+\midrule
+\DTLforeach*{metrics}{\player=player,\metric=metric,\mean=mean,\lo=lo,\hi=hi}{\player & \metric & \mean & \lo & \hi \\}
+\bottomrule
+\end{tabular}
+\end{table}
+
 \subsection*{Ryan Couchman}
-Key metrics (stub), uncertainty bands (stub), and 3–5 evidence bullets.
-\section{Evidence Appendix (Stub)}
-Tables, charts, priors, diagnostics will populate here.
+Key metrics and uncertainty.
+
+\section{Evidence Appendix}
+More tables, charts, priors, diagnostics will populate here.
+
 \end{document}
