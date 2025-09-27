@@ -1,0 +1,28 @@
+name: report
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install TeX & DuckDB
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk
+          curl -L -o duckdb_cli.zip https://github.com/duckdb/duckdb/releases/download/v1.1.3/duckdb_cli-linux-amd64.zip
+          unzip duckdb_cli.zip && sudo mv duckdb /usr/local/bin/duckdb
+      - name: Build
+        working-directory: report
+        env:
+          STATS_PARQUET: ${{ github.workspace }}/report/data/metrics_demo.parquet
+          DIM_PLAYER: ${{ github.workspace }}/report/data/dim_player_demo.parquet
+        run: |
+          # For CI without your private dataset, commit tiny demo parquet or skip export and use existing CSVs.
+          latexmk -pdf -interaction=nonstopmode -file-line-error tex/main.tex -jobname=couchman_report -outdir=..
+      - uses: actions/upload-artifact@v4
+        with:
+          name: couchman_report.pdf
+          path: couchman_report.pdf
