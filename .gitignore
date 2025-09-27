@@ -1,4 +1,9 @@
 report/build/
 report/tex/includes/buildinfo.tex
-*.aux *.log *.out *.toc *.fls *.fdb_latexmk
-couchman_report.pdf
+report/couchman_report.*
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
