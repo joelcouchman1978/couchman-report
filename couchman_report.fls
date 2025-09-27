@@ -1,0 +1,15 @@
+PWD /Users/joelcouchman/couchman-report/report
+INPUT /usr/local/texlive/2025/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT tex/main.tex
+OUTPUT /Users/joelcouchman/couchman-report/couchman_report.log
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/silence/silence.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/silence/silence.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm

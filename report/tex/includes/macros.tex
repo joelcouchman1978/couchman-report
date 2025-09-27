@@ -1,2 +1,17 @@
-\newcommand{\metric}[3]{\textbf{#1}: #2 \, (\( #3 \))}
-\newcommand{\ci}[2]{#1\,--\,#2}
+\newcommand{\metricrow}[5]{#1 & #2 & [#3,\,#4] & #5\\}
+\newenvironment{coachnotes}{\begingroup\ifdraft\small\itshape\fi}{\endgroup}
+\newcommand{\ci}[2]{\,[#1,\,#2]}
+\newcommand{\PlayerOnePager}[5]{%
+  \section*{#1: Executive One-Pager}
+  \begin{itemize}
+    \item #2
+    \item #3
+    \item #4
+  \end{itemize}
+  \vspace{0.5em}
+  \ifx\relax#5\relax\else
+    \begin{center}
+      \includegraphics[width=0.92\linewidth]{#5}
+    \end{center}
+  \fi
+}

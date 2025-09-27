@@ -1,0 +1,14 @@
+\setlength{\parskip}{0.6em}
+\setlength{\parindent}{0pt}
+\captionsetup{labelfont=bf}
+
+\ifdraft
+  \usepackage{draftwatermark}
+  \SetWatermarkText{DRAFT}
+  \SetWatermarkScale{1.2}
+  \SetWatermarkColor[gray]{0.9}
+\fi
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
