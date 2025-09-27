@@ -3,7 +3,7 @@
 Build (local):
   cd report
   PLAYER_A_NAME="Toby Couchman" PLAYER_B_NAME="Ryan Couchman" ./scripts/run_export.sh
-  open ../couchman_report.pdf
+  open ./couchman_report.pdf
 
 Data inputs:
   export STATS_PARQUET="$HOME/FullDataNRL/data/curated/fact_player_game.parquet"
