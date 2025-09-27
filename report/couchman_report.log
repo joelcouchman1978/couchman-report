@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.17)  28 SEP 2025 07:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.17)  28 SEP 2025 07:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -608,57 +608,43 @@ Overfull \hbox (2.47597pt too wide) in alignment at lines 8--12
  [] [] [] [] 
  []
 
+
+Overfull \hbox (2.47597pt too wide) in alignment at lines 12--14
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.47597pt too wide) in alignment at lines 14--16
+ [] [] [] [] 
+ []
+
 (../build/tables/metrics_toby.tex)
-./sections/appendix_metrics.tex:14: Misplaced \noalign.
-\bottomrule ->\noalign 
-                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.14 \bottomrule
-                
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-./sections/appendix_metrics.tex:15: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.15 \end
-         {longtable}
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (2.47597pt too wide) in alignment at lines 12--15
+Overfull \hbox (2.47597pt too wide) in alignment at lines 16--18
  [] [] [] [] 
  []
 
 
-Overfull \hbox (2.47597pt too wide) in alignment at lines 18--22
+Overfull \hbox (2.47597pt too wide) in alignment at lines 21--25
  [] [] [] [] 
  []
 
 
-Overfull \hbox (2.47597pt too wide) in alignment at lines 22--26
+Overfull \hbox (2.47597pt too wide) in alignment at lines 25--29
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.47597pt too wide) in alignment at lines 29--31
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.47597pt too wide) in alignment at lines 31--33
  [] [] [] [] 
  []
 
 (../build/tables/metrics_ryan.tex)
-./sections/appendix_metrics.tex:28: Misplaced \noalign.
-\bottomrule ->\noalign 
-                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.28 \bottomrule
-                
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-./sections/appendix_metrics.tex:29: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.29 \end
-         {longtable}
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (2.47597pt too wide) in alignment at lines 26--29
+Overfull \hbox (2.47597pt too wide) in alignment at lines 33--35
  [] [] [] [] 
  []
 
@@ -689,7 +675,7 @@ f-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/font
 s/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
 lic/lm/lmri10.pfb>
 Output written on /Users/joelcouchman/couchman-report/report/couchman_report.pd
-f (6 pages, 162037 bytes).
+f (6 pages, 162033 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream

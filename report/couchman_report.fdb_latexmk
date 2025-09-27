@@ -1,10 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1759007893.57662 "main.tex" "/Users/joelcouchman/couchman-report/report/couchman_report.pdf" "couchman_report" 1759007894.10324 2
+["pdflatex"] 1759008787.77019 "main.tex" "/Users/joelcouchman/couchman-report/report/couchman_report.pdf" "couchman_report" 1759008788.32866 0
   "../build/tables/metrics_ryan.tex" 1758961627.82824 247 04e274ac9a481270b23bfa210b32e320 ""
   "../build/tables/metrics_toby.tex" 1758961627.82813 473 eba31fb2d68cfcba60394f1a2f47e62b ""
-  "/Users/joelcouchman/couchman-report/report/couchman_report.aux" 1759007894.04153 1007 8b52fef2fa8d80a70e4927b09caf0d3a "pdflatex"
-  "/Users/joelcouchman/couchman-report/report/couchman_report.out" 1759007894.04188 638 19d3cf73464f34e9adf7bbb5330aa71f "pdflatex"
-  "/Users/joelcouchman/couchman-report/report/couchman_report.toc" 1759007894.04215 363 fa5a831b9019172884d6d112532666c5 "pdflatex"
+  "/Users/joelcouchman/couchman-report/report/couchman_report.aux" 1759008788.27046 1007 8b52fef2fa8d80a70e4927b09caf0d3a "pdflatex"
+  "/Users/joelcouchman/couchman-report/report/couchman_report.out" 1759008788.27079 638 19d3cf73464f34e9adf7bbb5330aa71f "pdflatex"
+  "/Users/joelcouchman/couchman-report/report/couchman_report.toc" 1759008788.27094 363 fa5a831b9019172884d6d112532666c5 "pdflatex"
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1254269338 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -108,7 +108,7 @@
   "includes/packages.tex" 1758830716 397 2f4be0f575e6a86b7a26a744e19fb7fb ""
   "includes/style.tex" 1758830419 385 a17fd32dbc14d3d65954e9a0fb3f75fd ""
   "main.tex" 1758830212 810 dba857e05a657c7dcee8965f015c3010 ""
-  "sections/appendix_metrics.tex" 1759007883.37209 574 526d73b9e6a1715778178c52264277dc ""
+  "sections/appendix_metrics.tex" 1759008780.00701 642 32c1da4957bf96fd5d712ef2355926a2 ""
   "sections/appendix_overview.tex" 1758830212 292 0d91f23bb04ec6b41cb9256ab6c4be75 ""
   "sections/executive_ryan.tex" 1759007877.87576 248 ac52896e8b10e9f04d4e3165ffd60174 ""
   "sections/executive_toby.tex" 1759007877.87152 262 055b95c09d80ec70172c4c51890e4f38 ""
