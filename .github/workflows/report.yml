@@ -1,0 +1,28 @@
+name: report
+on:
+  pull_request:
+    paths:
+      - 'report/**'
+      - '.github/workflows/report.yml'
+  push:
+    branches: [ main ]
+    paths:
+      - 'report/**'
+      - '.github/workflows/report.yml'
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install TeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk
+      - name: Build PDF
+        working-directory: report
+        run: |
+          latexmk -pdf -interaction=nonstopmode -file-line-error -cd tex/main.tex -jobname=couchman_report -outdir=..
+      - uses: actions/upload-artifact@v4
+        with:
+          name: couchman_report.pdf
+          path: couchman_report.pdf

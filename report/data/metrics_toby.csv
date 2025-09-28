@@ -1,0 +1,10 @@
+metric,value,ci_low,ci_high,note
+Tackles/80,,,,Work-rate; adjusted for minutes
+Missed tackles/80,,,,Expected band by role
+Run metres/80,,,,Carries incl. returns
+Post-contact m,,,,NRL.com definition
+Penalties conceded/80,,,,Discipline
+Metres/carry,,,,Carry efficiency
+Line breaks/80,,,,Volatile small-sample
+Tackle eff. %,,,,Role-adjusted
+Errors/80,,,,Stability
