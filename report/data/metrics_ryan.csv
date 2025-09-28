@@ -1,0 +1,6 @@
+metric,value,ci_low,ci_high,note
+Metres/carry,,,,Carry efficiency
+Line breaks/80,,,,Volatile small-sample
+Tackle eff. %,,,,Role-adjusted
+Errors/80,,,,Stability
+Run metres/80,,,,Carries incl. returns

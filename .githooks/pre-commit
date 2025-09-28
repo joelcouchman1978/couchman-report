@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+files="$(git diff --cached --name-only | grep -E '(^|/)(couchman_report\.(pdf|aux|log|out|toc|fls|fdb_latexmk)$)|\.(aux|log|out|toc|fls|fdb_latexmk)$' || true)"
+if [ -n "$files" ]; then
+  echo "Blocked: LaTeX build artifacts are staged. Run: latexmk -C"
+  echo "$files"
+  exit 1
+fi
